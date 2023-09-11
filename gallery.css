@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    
+}
+.header-text{
+    color: #ff6600;
+    font-size: 9vmin;
+    font-weight: 800;
+    text-align: center;
+}
+/*---------Gallery section---------*/
+.pic-cont{
+    padding: 10px;
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 20px;
+}
+.pic-cont img{
+    width: 60vmin;
+    border: solid 5px #ff6600;
+    border-radius: 20px;
+}
+
+/*---------footer--------*/
+.fullcont{
+	background-color: #EEEEEE;
+}
+.rowfooter{
+    background-color: #EEEEEE;
+    color: black;
+	padding: 40px 40px 10px 40px;
+	
+}
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.secondfooter{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.secondfooter a{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+.secondfooter a:hover{
+	color: #ff6600;
+}
+.hr {
+	height: 2px;
+	width: 80%;
+	margin: auto;
+}
+.copyright{
+	justify-content: center;
+	font-size: small;
+	padding: 10px;
+}
+.thirdfooter i{
+	padding: 15px;
+}
+.thirdfooter a{
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+.thirdfooter a:hover{
+	color: blue;
+}

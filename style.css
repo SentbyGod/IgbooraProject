@@ -1,0 +1,131 @@
+
+.contactbtn{
+	padding: 4px 8px;
+	background-color: #ff6600;
+	border: none;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 5px;
+	color: black;
+}
+
+.nvl{
+    align-items: center;
+    margin-left: auto;
+}
+.nvl li{
+	list-style: none;
+	display: inline-block;
+	padding: 4px 20px;
+	font-weight: bold;
+}
+.nvl li a{
+	color: black;
+	text-decoration: none;
+	font-size: 12px;
+}
+.nvl li::after{
+	content: "";
+	display: block;
+	background: red;
+	width: 0%;
+	height: 2px;
+	margin: auto;
+	transition: 0.5s;
+}
+.nvl li:hover::after{
+	width: 100%;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/homepic.JPG);
+	background-position: center;
+	background-size: cover;
+	margin: 0px, 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.header-content{
+    color: whitesmoke;
+}
+.header-content h1{
+    font-size: 9vmin;
+}
+.header-content p{
+    font-size: 2vmin;
+    padding-bottom: 10px;
+}
+.button{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 2vmin;
+	border: 1px solid white;
+	padding: 12px 34px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.button:hover{
+    border: 1px solid orange;
+    background: orange;
+    color: black;
+    transition: 1s;
+}
+.btn{
+    color: white;
+    background-color: white;
+}
+.fullcont{
+	background-color: #EEEEEE;
+}
+.rowfooter{
+    background-color: #EEEEEE;
+    color: black;
+	padding: 40px 40px 10px 40px;
+	
+}
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.secondfooter{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.secondfooter a{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+.secondfooter a:hover{
+	color: #ff6600;
+}
+.hr {
+	height: 2px;
+	width: 80%;
+	margin: auto;
+}
+.copyright{
+	justify-content: center;
+	font-size: small;
+	padding: 10px;
+}
+.thirdfooter i{
+	padding: 15px;
+}
+.thirdfooter a{
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+.thirdfooter a:hover{
+	color: blue;
+}
